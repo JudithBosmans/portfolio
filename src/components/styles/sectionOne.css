@@ -1,0 +1,103 @@
+/********* 
+**** HOME 
+/*********
+
+/*** navigation ***/
+
+section {
+  min-height: 100vh;
+}
+
+.navigation-container {
+  text-align: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation ul li {
+  margin: 30px 70px;
+}
+
+.navigation ul li a:hover {
+  color: #f39b9a;
+  font-weight: 600;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation ul li {
+    margin: 5px 0;
+  }
+}
+
+/*** title ***/
+
+.title {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  font-size: 90px;
+
+  width: min-content;
+  height: min-content;
+
+  white-space: nowrap;
+  flex-direction: column;
+
+  margin-top: 0;
+  font-weight: 1000;
+}
+
+/*** undertitle ***/
+
+.undertitle {
+  font-size: 40px;
+  left: 5%;
+  text-align: left;
+
+  position: absolute;
+  width: min-content;
+  height: min-content;
+
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.portfolio {
+  font-weight: bold;
+  top: 780px;
+  position: absolute;
+}
+
+.littleTitle {
+  font-weight: 300;
+  top: 830px;
+  position: absolute;
+}
+s
+
+/*** picture ***/
+
+.coverPicture {
+  position: absolute;
+  left: 126px;
+  top: 5px;
+  width: 1993px;
+  height: 1120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
