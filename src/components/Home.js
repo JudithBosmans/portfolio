@@ -1,8 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 
-import sectionOne from "./styles/sectionOne.css";
-import coverPic from "../pics/me.png";
+import sectionOne from "../styles/sectionOne.css";
 
 import Experiences from "../components/Experiences";
 import Project from "../components/Project";
@@ -32,7 +31,7 @@ function Home() {
   };
 
   return (
-    <div className="container">
+    <div className="homeContainer">
       <motion.div
         className="navigation-container"
         variants={container}

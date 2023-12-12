@@ -15,9 +15,10 @@ section {
 .navigation ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -33,6 +34,8 @@ section {
 .navigation ul li a {
   text-decoration: none;
   color: #333;
+  position: fixed;
+
   font-size: 15px;
 }
 
@@ -47,7 +50,7 @@ section {
 .title {
   position: absolute;
   left: 5%;
-  top: 10%;
+  top: 15%;
   font-size: 90px;
 
   width: min-content;
@@ -63,6 +66,7 @@ section {
 /*** undertitle ***/
 
 .undertitle {
+  bottom: 100%;
   font-size: 40px;
   left: 5%;
   text-align: left;
@@ -78,13 +82,13 @@ section {
 
 .portfolio {
   font-weight: bold;
-  top: 780px;
+  top: 705px;
   position: absolute;
 }
 
 .littleTitle {
   font-weight: 300;
-  top: 830px;
+  top: 750px;
   position: absolute;
 }
 s

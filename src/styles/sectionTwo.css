@@ -1,0 +1,89 @@
+.experiencesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin: 0 auto;
+  width: 120vh;
+  height: 80vh;
+}
+
+/****
+Grid shenanigans
+*****/
+
+.experienceText,
+.skillsText {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/*****
+Some styling
+*****/
+
+/** titles & subtitles **/
+
+.experienceTitle,
+.educationTitle,
+.skillsTitle {
+  font-size: 35px;
+  font-weight: 500;
+  font-family: Switzer, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+}
+
+.titleExperience1,
+.titleExperience2,
+.titleEducation {
+  position: absolute;
+  color: #1e2124;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.titleExperience1,
+.titleExperience2 {
+  top: 120%;
+}
+
+.titleEducation {
+  top: 162%;
+}
+
+/** text **/
+
+.textExperience1,
+.textExperience2,
+.textEducation2,
+.skillsText {
+  position: absolute;
+  color: #1e2124;
+  font-size: 20px;
+}
+
+.textExperience1,
+.textExperience2 {
+  top: 125%;
+}
+
+.textEducation2 {
+  top: 167%;
+}
+
+.skillsText {
+  top: 162%;
+}
+
+.skill1 p,
+.skill2 p {
+  margin-bottom: 10px;
+}
+
+.skill2 {
+  margin-left: 70px;
+}
