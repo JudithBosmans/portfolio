@@ -37,6 +37,15 @@ Some styling
   position: absolute;
 }
 
+.experienceTitle {
+  top: 110%;
+}
+
+.educationTitle,
+.skillsTitle {
+  top: 152%;
+}
+
 .titleExperience1,
 .titleExperience2,
 .titleEducation {

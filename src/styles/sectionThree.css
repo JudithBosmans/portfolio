@@ -3,8 +3,9 @@
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-
   height: 95vh;
+
+  background: linear-gradient(180deg, #f39b9a 0%, rgba(243, 155, 154, 0) 100%);
 }
 
 .project {
@@ -15,30 +16,58 @@
 
   justify-content: space-between;
   height: 100%;
-  padding: 10px;
+  padding: 15px;
 }
 
 .project:hover {
+  background: linear-gradient(200deg, #f39b9a 0%, rgba(243, 155, 154, 0) 100%);
+  border: 1px solid #e8e6d4;
 }
 
 .projectTitle,
 .projectSubtitle,
 .projectNumber {
-  color: #f39b9a;
   text-align: right;
 }
 
 .titleSubtitleContainer {
-  margin-top: auto;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 50px 0px 0px;
+}
+
+.projectSubtitle {
+  color: #1e2124;
 }
 
 .projectNumber {
   font-size: 30px;
   font-weight: 800;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 50px 0px 0px;
+  color: #e8e6d4;
 }
 
 .linkProjects {
   text-decoration: none;
+}
+
+.picProject {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hoverText {
+  position: absolute; /* Positioning the text within the project */
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  display: block;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and transform */
+  transform: translateY(20px); /* Initial position */
+  color: #fff; /* Adjust text color as needed */
+  /* Add other styles for the text as needed */
+}
+
+.project:hover .hoverText {
+  opacity: 1; /* Visible on hover */
+  transform: translateY(0); /* Move to final position */
 }

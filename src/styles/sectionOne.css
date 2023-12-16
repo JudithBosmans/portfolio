@@ -9,6 +9,12 @@ section {
 }
 
 .navigation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
   text-align: center;
 }
 
@@ -19,11 +25,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .navigation ul li {
-  margin: 30px 70px;
+  margin: 30px 50px;
 }
 
 .navigation ul li a:hover {
@@ -34,7 +39,6 @@ section {
 .navigation ul li a {
   text-decoration: none;
   color: #333;
-  position: fixed;
 
   font-size: 15px;
 }
@@ -90,18 +94,4 @@ section {
   font-weight: 300;
   top: 750px;
   position: absolute;
-}
-s
-
-/*** picture ***/
-
-.coverPicture {
-  position: absolute;
-  left: 126px;
-  top: 5px;
-  width: 1993px;
-  height: 1120px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }

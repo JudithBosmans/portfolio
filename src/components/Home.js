@@ -41,6 +41,9 @@ function Home() {
         <nav className="navigation">
           <motion.ul>
             <motion.li variants={item}>
+              <a href="#home-section">HOME</a>
+            </motion.li>
+            <motion.li variants={item}>
               <a href="#experiences">EXPERIENCES</a>
             </motion.li>
             <motion.li variants={item}>

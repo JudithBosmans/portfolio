@@ -10,7 +10,7 @@ function Contact() {
       <h1 className="subtitleContact">THANK YOU & BYE :)</h1>
 
       <div className="svgContainer">
-        <motion.div className="project" whileHover={{ scale: 1.2 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <a href="https://www.linkedin.com/in/judith-bosmans-527428145/">
             <svg data-name="Layer 1" id="Layer_1" viewBox="0 0 128 128">
               <title />
@@ -42,7 +42,7 @@ function Contact() {
             </svg>
           </a>
         </motion.div>
-        <motion.div className="project" whileHover={{ scale: 1.2 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <a href="https://www.facebook.com/judith.bosmans.1/?locale=nl_NL">
             <svg viewBox="0 0 32 32">
               <g data-name="facebook fb face book" id="facebook_fb_face_book">
@@ -54,7 +54,7 @@ function Contact() {
             </svg>
           </a>
         </motion.div>
-        <motion.div className="project" whileHover={{ scale: 1.2 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <a href="mailto:judobosmans@gmail.com">
             <svg viewBox="0 0 32 32">
               <g
