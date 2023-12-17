@@ -2,7 +2,7 @@
 
 ## Who am I?
 
-- Hi, I'm a third year at Multimedia & Creative Technologies at Erasmus Brussels
+- Hi, I'm a third year Multimedia & Creative Technologies at Erasmus Brussels
 - My passions include graphic design, UX/UI, frontend, art, ...
 - Curious about my work? https://judithbosmans.onrender.com/ 
 
