@@ -85,6 +85,8 @@ function Home() {
             <motion.p variants={item}>UX/UI</motion.p>
           </div>
         </motion.div>
+
+       
       </section>
 
       <section id="experiences">

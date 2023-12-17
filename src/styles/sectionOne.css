@@ -43,10 +43,19 @@ section {
   font-size: 15px;
 }
 
-@media screen and (max-width: 600px) {
-  .navigation ul li {
-    margin: 5px 0;
-  }
+.home-section {
+  /* background: #e8e6d4;
+  background: radial-gradient(at right top, #f39b9a, #e8e6d4); */
+}
+
+#experiences {
+  /* background: #e8e6d4;
+  background: radial-gradient(at center bottom, #f39b9a, #e8e6d4); */
+}
+
+#contact {
+  /* background: #e8e6d4;
+  background: radial-gradient(at center bottom, #f39b9a, #e8e6d4); */
 }
 
 /*** title ***/

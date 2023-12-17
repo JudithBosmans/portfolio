@@ -20,7 +20,7 @@
 }
 
 .project:hover {
-  background: linear-gradient(200deg, #f39b9a 0%, rgba(243, 155, 154, 0) 100%);
+  /* background: linear-gradient(200deg, #f39b9a 0%, rgba(243, 155, 154, 0) 100%); */
   border: 1px solid #e8e6d4;
 }
 
@@ -56,18 +56,21 @@
 }
 
 .hoverText {
-  position: absolute; /* Positioning the text within the project */
-  bottom: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
+  position: absolute;
+  bottom: 30%;
+  left: 25%;
+
   display: block;
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and transform */
-  transform: translateY(20px); /* Initial position */
-  color: #fff; /* Adjust text color as needed */
-  /* Add other styles for the text as needed */
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform: translateY(25%);
+
+  color: #e8e6d4;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .project:hover .hoverText {
-  opacity: 1; /* Visible on hover */
-  transform: translateY(0); /* Move to final position */
+  opacity: 1;
+  transform: translateY(0);
 }
