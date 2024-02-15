@@ -12,7 +12,7 @@ const Experiences = () => {
           <h2 className="titleExperience1">Student UX/UI designer</h2>
           <div className="textExperience1">
             <p>In The Pocket</p>
-            <p>(Project) 2022-2023</p>
+            <p>(Duaal) Jan'22-Jun'23</p>
           </div>
         </div>
       </div>
@@ -22,7 +22,17 @@ const Experiences = () => {
           <h2 className="titleExperience2">Brand design</h2>
           <div className="textExperience1">
             <p>Bossies Wijnbar</p>
-            <p>2022-...</p>
+            <p>'22-...</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="Experience3">
+        <div className="experience3">
+          <h2 className="titleExperience3">Asset & Visuals design</h2>
+          <div className="textExperience3">
+            <p>Estee Lauder Companies</p>
+            <p>(Intern) Jan'24-Apr'24</p>
           </div>
         </div>
       </div>
@@ -31,10 +41,22 @@ const Experiences = () => {
         <div className="educationTitle">
           <h1>EDUCATION</h1>
         </div>
-        <h2 className="titleEducation">Erasmus School of Brussels</h2>
-        <div className="textEducation2">
-          <p>Multimedia and Creative Technologies</p>
-          <p>2021-2024</p>
+        <div className="education1">
+          <h2 className="titleEducation">Erasmus School of Brussels</h2>
+          <div className="textEducation2">
+            <p>Multimedia and Creative Technologies</p>
+            <p>2021-2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="Education">
+        <div className="education2">
+          <h2 className="titleEducation">Sint-Lukas Kunsthumaniora</h2>
+          <div className="textEducation2">
+            <p>Artistieke Opleiding</p>
+            <p>2017-2021</p>
+          </div>
         </div>
       </div>
 
@@ -44,7 +66,7 @@ const Experiences = () => {
         </div>
         <div className="skillsText">
           <div className="skill1">
-            <p>Adobe software</p>
+            <p>Adobe Creative Cloud</p>
             <p>Figma</p>
             <p>HTML & CSS</p>
             <p>UX/UI</p>
@@ -52,7 +74,7 @@ const Experiences = () => {
             <p>React, Vite, Vue, ...</p>
           </div>
           <div className="skill2">
-            <p>Threejs</p>
+            <p>Three.js</p>
             <p>Maya & Unity</p>
             <p>Graphic design</p>
             <p>Teamplayer</p>

@@ -1,7 +1,7 @@
 .experiencesContainer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 50px;
   grid-row-gap: 50px;
 
@@ -48,6 +48,7 @@ Some styling
 
 .titleExperience1,
 .titleExperience2,
+.titleExperience3,
 .titleEducation {
   position: absolute;
   color: #1e2124;
@@ -56,7 +57,8 @@ Some styling
 }
 
 .titleExperience1,
-.titleExperience2 {
+.titleExperience2,
+.titleExperience3 {
   top: 120%;
 }
 
@@ -68,6 +70,7 @@ Some styling
 
 .textExperience1,
 .textExperience2,
+.textExperience3,
 .textEducation2,
 .skillsText {
   position: absolute;
@@ -76,7 +79,8 @@ Some styling
 }
 
 .textExperience1,
-.textExperience2 {
+.textExperience2,
+.textExperience3 {
   top: 125%;
 }
 
