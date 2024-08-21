@@ -1,0 +1,34 @@
+.creative-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300vh;
+  padding: 20px;
+}
+
+.sketchbookContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.sketchbookContainer h2 {
+  color: #f39b9a;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sketchbookContainer p {
+  font-size: 17px;
+  width: 60%;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}

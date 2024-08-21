@@ -5,7 +5,10 @@ import sectionOne from "../styles/sectionOne.css";
 
 import Experiences from "../components/Experiences";
 import Project from "../components/Project";
+import Slides from "../components/Sketches";
 import Contact from "../components/Contact";
+
+import TitleImage from "../text/Title.png";
 
 import { motion } from "framer-motion";
 
@@ -38,22 +41,35 @@ function Home() {
         initial="hidden"
         animate="visible"
       >
-        <nav className="navigation">
-          <motion.ul>
-            <motion.li variants={item}>
-              <a href="#home-section">HOME</a>
+        <div className="d-flex justify-content-between align-items-center">
+          <motion.ul className="nav d-flex justify-content-center flex-grow-1">
+            <motion.li className="nav-item">
+              <a className="nav-link" href="#home-section">
+                HOME
+              </a>
             </motion.li>
-            <motion.li variants={item}>
-              <a href="#experiences">EXPERIENCES</a>
+            <motion.li className="nav-item">
+              <a className="nav-link" href="#experiences">
+                EXPERIENCES
+              </a>
             </motion.li>
-            <motion.li variants={item}>
-              <a href="#projects">PROJECTS</a>
+            <motion.li className="nav-item">
+              <a className="nav-link" href="#projects">
+                PROJECTS
+              </a>
             </motion.li>
-            <motion.li variants={item}>
-              <a href="#contact">CONTACT</a>
+            <motion.li className="nav-item">
+              <a className="nav-link" href="#slides">
+                MORE
+              </a>
             </motion.li>
           </motion.ul>
-        </nav>
+          <motion.button className="nav-link">
+            <a href="#contact" className="contact-link">
+              CONTACT
+            </a>
+          </motion.button>
+        </div>
       </motion.div>
 
       <section id="home-section" className="home-section">
@@ -63,6 +79,16 @@ function Home() {
           initial="hidden"
           animate="visible"
         >
+          {/* <motion.img
+            src={TitleImage}
+            alt="Sample"
+            variants={item}
+            className="title-image"
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            transition={{ duration: 1 }}
+          /> */}
           <motion.h1 className="title1" variants={item}>
             HELLO,
           </motion.h1>
@@ -85,15 +111,15 @@ function Home() {
             <motion.p variants={item}>UX/UI</motion.p>
           </div>
         </motion.div>
-
-       
       </section>
-
       <section id="experiences">
         <Experiences />
       </section>
       <section id="projects">
         <Project />
+      </section>
+      <section id="slides">
+        <Slides />
       </section>
       <section id="contact">
         <Contact />

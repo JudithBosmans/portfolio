@@ -1,5 +1,5 @@
 import React from "react";
-import sectionTwo from "../styles/sectionTwo.css";
+import "../styles/sectionTwo.css";
 
 const Experiences = () => {
   return (
@@ -8,32 +8,42 @@ const Experiences = () => {
         <div className="experienceTitle">
           <h1>EXPERIENCE</h1>
         </div>
-        <div className="experience1">
-          <h2 className="titleExperience1">Student UX/UI designer</h2>
-          <div className="textExperience1">
-            <p>In The Pocket</p>
-            <p>(Duaal) Jan'22-Jun'23</p>
+        <div className="Experience3">
+          <div className="experience3">
+            <h2 className="titleExperience3">Developer</h2>
+            <div className="textExperience3">
+              <p>FamousGrey</p>
+              <p>(BIS-Intern) Aug'24-Feb'25</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="Experience1">
+      {/* <div className="Experience1">
         <div className="experience2">
           <h2 className="titleExperience2">Brand design</h2>
           <div className="textExperience1">
             <p>Bossies Wijnbar</p>
-            <p>'22-...</p>
+            <p>(Family) '22-...</p>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="Experience2">
+        <div className="experience2">
+          <h2 className="titleExperience2">Asset & Visuals design</h2>
+          <div className="textExperience2">
+            <p>Estee Lauder Companies</p>
+            <p>(Intern) Jan'24-Apr'24</p>
           </div>
         </div>
       </div>
 
-      <div className="Experience3">
-        <div className="experience3">
-          <h2 className="titleExperience3">Asset & Visuals design</h2>
-          <div className="textExperience3">
-            <p>Estee Lauder Companies</p>
-            <p>(Intern) Jan'24-Apr'24</p>
-          </div>
+      <div className="experience1">
+        <h2 className="titleExperience1">Student UX/UI designer</h2>
+        <div className="textExperience1">
+          <p>In The Pocket</p>
+          <p>(Duaal) Jan'22-Jun'23</p>
         </div>
       </div>
 
@@ -45,7 +55,7 @@ const Experiences = () => {
           <h2 className="titleEducation">Erasmus School of Brussels</h2>
           <div className="textEducation2">
             <p>Multimedia and Creative Technologies</p>
-            <p>2021-2024</p>
+            <p>(Bachelor) 2021-2024</p>
           </div>
         </div>
       </div>
@@ -55,7 +65,7 @@ const Experiences = () => {
           <h2 className="titleEducation">Sint-Lukas Kunsthumaniora</h2>
           <div className="textEducation2">
             <p>Artistieke Opleiding</p>
-            <p>2017-2021</p>
+            <p>(Humaniora) 2017-2021</p>
           </div>
         </div>
       </div>
