@@ -1,4 +1,4 @@
-.creative-container {
+/* .creative-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,3 +32,37 @@
   width: 100%;
   height: auto;
 }
+
+.creative-container {
+  min-height: 100vh;
+  background-color: #e8e6d4;
+  background: #e8e6d4;
+  background: radial-gradient(at center right, #f39b9a, #e8e6d4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sketchbookContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 30px 50px;
+  font-size: 15px;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #f39b9a;
+  font-weight: 600;
+} */

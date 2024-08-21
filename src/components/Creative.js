@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Creative.css";
+
 import data from "../data.json";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -86,8 +87,8 @@ const Creative = () => {
           creativeWork.map((section, index) => (
             <div key={index} className="mb-5">
               <div className="sketchbookContainer">
-                <h2 className="text-center">{section.title}</h2>
-                <p className="text-center">{section.subtitle}</p>
+                <h2>{section.title}</h2>
+                <p>{section.subtitle}</p>
 
                 <Row>
                   {section.images.map((img, imgIndex) => (
