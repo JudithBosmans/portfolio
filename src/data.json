@@ -37,32 +37,113 @@
   "creativeWork": [
     {
       "title": "SKETCHBOOK",
-      "subtitle": "During the past years I've filled up many sketchbooks. In the selection underneath you'll find a selection I made to showcase a variety of the work. The sketches in my sketchbooks usually never take more than 15-20 minutes.",
+      "subtitle": "During the past years I've filled up many sketchbooks. I've always been a creative kid, but when I was 11 my mom got me drawing lessons with an artist. I really enjoyed learning about basic composition and anatomy. One day I came home with a portret of an old man I'd created by using charcoal negatively. My mom couldn't believe that I had made this drawing, and the two years later I started art school. For this and many more reasons, drawing and creating has always been special to me. However, I can't show 20 years of drawing. Therefore I've curated a selection to showcase a variety of drawings and paintings you'll find in my sketchbooks. The creations in my sketchbooks usually never take more than 15-20 minutes.",
       "images": [
-        "/pics/works/sketchbook/sketchbook1.JPG",
-        "/pics/works/sketchbook/sketchbook3.JPG",
-        "/pics/works/sketchbook/sketchbook5.JPG",
-        "/pics/works/sketchbook/sketchbook1.JPG",
-        "/pics/works/sketchbook/sketchbook3.JPG",
-        "/pics/works/sketchbook/sketchbook5.JPG"
+        "/pics/works/sketchbook/sketch1.png",
+        "/pics/works/sketchbook/sketch2.png",
+        "/pics/works/sketchbook/sketch7.png",
+        "/pics/works/sketchbook/sketch4.png",
+        "/pics/works/sketchbook/sketch5.png",
+        "/pics/works/sketchbook/sketch6.png",
+        "/pics/works/sketchbook/sketch3.png",
+        "/pics/works/sketchbook/sketch8.png",
+        "/pics/works/sketchbook/sketch9.png",
+        "/pics/works/sketchbook/sketch10.png",
+        "/pics/works/sketchbook/sketch11.png"
       ]
     },
     {
       "title": "DESIGN",
-      "subtitle": "During the past years I've filled up many sketchbooks. In the selection underneath you'll find a selection I made to showcase a variety of the work. The sketches in my sketchbooks usually never take more than 15-20 minutes.",
+      "subtitle": "Digital design works created over the years.",
       "images": [
-        "/pics/works/sketchbook/sketchbook1.JPG",
-        "/pics/works/sketchbook/sketchbook3.JPG",
-        "/pics/works/sketchbook/sketchbook4.JPG"
+        {
+          "src": "/pics/works/design/marvel5.png",
+          "hoverDescription": "From a big sheet of data about Marvel we had to create an infographic. I went with data about gender; 'The Garden of Eden'."
+        },
+        {
+          "src": "/pics/works/design/marvel1.png",
+          "hoverDescription": "From a big sheet of data about Marvel we had to create an infographic. I went with data about gender; 'The Garden of Eden'."
+        },
+        {
+          "src": "/pics/works/design/marvel2.png",
+          "hoverDescription": "From a big sheet of data about Marvel we had to create an infographic. I went with data about gender; 'The Garden of Eden'."
+        },
+
+        {
+          "src": "/pics/works/design/marvel3.png",
+          "hoverDescription": "From a big sheet of data about Marvel we had to create an infographic. I went with data about gender; 'The Garden of Eden'."
+        },
+        {
+          "src": "/pics/works/design/marvel4.png",
+          "hoverDescription": "From a big sheet of data about Marvel we had to create an infographic. I went with data about gender; 'The Garden of Eden'."
+        },
+
+        {
+          "src": "/pics/works/design/poster1.png",
+          "hoverDescription": "Project where we had to come up with a VZW organisation and create branding (this is a selection)."
+        },
+        {
+          "src": "/pics/works/design/poster2.png",
+          "hoverDescription": "Project where we had to come up with a VZW organisation and create branding (this is a selection)."
+        },
+        {
+          "src": "/pics/works/design/poster3.png",
+          "hoverDescription": "Project where we had to come up with a VZW organisation and create branding (this is a selection)."
+        },
+        {
+          "src": "/pics/works/design/poster4.png",
+          "hoverDescription": "Project where we had to come up with a VZW organisation and create branding (this is a selection)."
+        },
+        {
+          "src": "/pics/works/design/mockup1.png",
+          "hoverDescription": "A concept where you give a customised flower to a loved one. They can scan it with AR and see a playlist made for them."
+        },
+        {
+          "src": "/pics/works/design/mockup2.png",
+          "hoverDescription": "A concept where you give a customised flower to a loved one. They can scan it with AR and see a playlist made for them."
+        },
+        {
+          "src": "/pics/works/design/mockup3.png",
+          "hoverDescription": "A concept where you give a customised flower to a loved one. They can scan it with AR and see a playlist made for them."
+        },
+        {
+          "src": "/pics/works/design/moodboard.png",
+          "hoverDescription": "Moodboard for a motion graphics video."
+        },
+        {
+          "src": "/pics/works/design/data1.png",
+          "hoverDescription": "Another infographic about the music I listen to. Represented by the age lines of trees."
+        }
       ]
     },
     {
       "title": "GIP",
-      "subtitle": "During the past years I've filled up many sketchbooks. In the selection underneath you'll find a selection I made to showcase a variety of the work. The sketches in my sketchbooks usually never take more than 15-20 minutes.",
+      "subtitle": "In the last year at Sint-Lukas every student needs to create GIP work. The subject is completely up to the students, as well the media. I choose to create a poster series reflecting back on 6 core memories of my youth. For each poster I wrote a poem describing the feeling of the memory. I thought myself Photoshop for this assignment and it was my first time working so much digitally. I printed each poster on top of a large sheet that I'd screen printed with a mix of inks.",
       "images": [
-        "/pics/works/sketchbook/sketchbook1.JPG",
-        "/pics/works/sketchbook/sketchbook3.JPG",
-        "/pics/works/sketchbook/sketchbook4.JPG"
+        "/pics/works/sketchbook/sketch1.png",
+        "/pics/works/sketchbook/sketch2.png",
+        "/pics/works/sketchbook/sketch7.png",
+        "/pics/works/sketchbook/sketch1.png",
+        "/pics/works/sketchbook/sketch2.png",
+        "/pics/works/sketchbook/sketch7.png"
+      ]
+    },
+    {
+      "title": "Random",
+      "subtitle": "Some works/projects that don't necceseraly fall into one of the latter categories but that I still deemed worthy for my portfolio.",
+      "images": [
+        {
+          "src": "/pics/works/random/3D1.jpg",
+          "hoverDescription": "Some of my first ever modelled objects in 3D from the first bachelor year."
+        },
+        {
+          "src": "/pics/works/random/3D2.jpg",
+          "hoverDescription": "A 3D assignment where we had to model a house. I chose one inspired by 'Lord of the Rings'."
+        },
+        {
+          "src": "/pics/works/random/nijnjte.jpg",
+          "hoverDescription": "For an 3D animation I chose Miffy as the main character. Here she she is posing."
+        }
       ]
     }
   ]

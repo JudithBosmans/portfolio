@@ -83,6 +83,8 @@ const Creative = () => {
         </div>
       </motion.div>
       <Container>
+        <h2 class="text-center">MORE</h2>
+
         {creativeWork && creativeWork.length > 0 ? (
           creativeWork.map((section, index) => (
             <div key={index} className="mb-5">
@@ -92,12 +94,22 @@ const Creative = () => {
 
                 <Row>
                   {section.images.map((img, imgIndex) => (
-                    <Col key={imgIndex} md={4} className="mb-4">
-                      <img
-                        src={img}
-                        alt={`Sketch ${imgIndex + 1}`}
-                        className="img-fluid"
-                      />
+                    <Col key={imgIndex} md={3} className="mb-4">
+                      <motion.div
+                        className="image-container"
+                        whileHover={{ scale: 2 }}
+                      >
+                        <img
+                          src={typeof img === "string" ? img : img.src}
+                          alt={`Sketches ${imgIndex + 1}`}
+                          className="img-fluid"
+                        />
+                        {img.hoverDescription && (
+                          <div className="hover-description">
+                            {img.hoverDescription}
+                          </div>
+                        )}
+                      </motion.div>
                     </Col>
                   ))}
                 </Row>
