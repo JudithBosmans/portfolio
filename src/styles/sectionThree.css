@@ -1,3 +1,8 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .projectContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

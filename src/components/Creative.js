@@ -83,7 +83,7 @@ const Creative = () => {
         </div>
       </motion.div>
       <Container>
-        <h2 class="text-center">MORE</h2>
+        <h2 className="text-center">MORE</h2>
 
         {creativeWork && creativeWork.length > 0 ? (
           creativeWork.map((section, index) => (
@@ -97,7 +97,7 @@ const Creative = () => {
                     <Col key={imgIndex} md={3} className="mb-4">
                       <motion.div
                         className="image-container"
-                        whileHover={{ scale: 2 }}
+                        whileHover={{ scale: 1.5 }} 
                       >
                         <img
                           src={typeof img === "string" ? img : img.src}

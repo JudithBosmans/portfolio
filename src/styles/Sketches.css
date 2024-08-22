@@ -1,3 +1,8 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .sketchesContainer {
   display: flex;
   flex-direction: column;
@@ -10,6 +15,5 @@
 
 .sketchesContainer h2 {
   font-size: 2rem;
-  text-align: center;
   color: #333;
 }

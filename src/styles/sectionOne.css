@@ -1,3 +1,8 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /********* 
 **** HOME 
 /*********/
@@ -6,70 +11,22 @@ section {
   min-height: 100vh;
 }
 
-.navigation-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-
-  text-align: center;
-}
-
-.navigation ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /********* 
 **** smartphones, portrait iPhone, portrait 480x320 phones (Android) 
 /*********/
 @media (min-width: 320px) {
-}
-
-/********* 
-**** smartphones, Android phones, landscape iPhone 
-/*********/
-@media (min-width: 480px) {
-}
-
-/********* 
-**** portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)
-/*********/
-@media (min-width: 600px) {
-}
-
-/********* 
-****  tablet, landscape iPad, lo-res laptops ands desktops
-/*********/
-@media (min-width: 801px) {
   /*** navigation ***/
 
-  .navigation ul li {
-    margin: 30px 50px;
+  .navigation-container {
+    display: none;
   }
-
-  .navigation ul li a:hover {
-    color: #f39b9a;
-    font-weight: 600;
-  }
-
-  .navigation ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-
   /*** title ***/
 
   .title {
     position: absolute;
     left: 5%;
-    top: 15%;
-    font-size: 90px;
+    top: 50%;
+    font-size: 65px;
 
     width: min-content;
     height: min-content;
@@ -84,8 +41,181 @@ section {
   /*** undertitle ***/
 
   .undertitle {
-    bottom: 100%;
-    font-size: 40px;
+    bottom: 120%;
+    font-size: 30px;
+    left: 5%;
+    text-align: left;
+
+    position: absolute;
+    width: min-content;
+    height: min-content;
+
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .portfolio {
+    font-weight: bold;
+    top: 705px;
+    position: absolute;
+  }
+
+  .littleTitle {
+    font-weight: 300;
+    top: 750px;
+    position: absolute;
+  }
+}
+
+/********* 
+**** smartphones, Android phones, landscape iPhone 
+/*********/
+@media (min-width: 480px) {
+  /*** navigation ***/
+
+  .navigation-container {
+    display: none;
+  }
+  /*** title ***/
+
+  .title {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 65px;
+
+    width: min-content;
+    height: min-content;
+
+    white-space: nowrap;
+    flex-direction: column;
+
+    margin-top: 0;
+    font-weight: 1000;
+  }
+
+  /*** undertitle ***/
+
+  .undertitle {
+    bottom: 120%;
+    font-size: 30px;
+    left: 5%;
+    text-align: left;
+
+    position: absolute;
+    width: min-content;
+    height: min-content;
+
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .portfolio {
+    font-weight: bold;
+    top: 705px;
+    position: absolute;
+  }
+
+  .littleTitle {
+    font-weight: 300;
+    top: 750px;
+    position: absolute;
+  }
+}
+
+/********* 
+**** portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)
+/*********/
+@media (min-width: 600px) {
+  /*** navigation ***/
+
+  .navigation-container {
+    display: none;
+  }
+
+  /*** title ***/
+
+  .title {
+    position: absolute;
+    left: 5%;
+    top: 42%;
+    font-size: 45px;
+
+    width: min-content;
+    height: min-content;
+
+    white-space: nowrap;
+    flex-direction: column;
+
+    margin-top: 0;
+    font-weight: 1000;
+  }
+
+  /*** undertitle ***/
+
+  .undertitle {
+    bottom: 133%;
+    font-size: 23px;
+    left: 5%;
+    text-align: left;
+
+    position: absolute;
+    width: min-content;
+    height: min-content;
+
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .portfolio {
+    font-weight: bold;
+    top: 705px;
+    position: absolute;
+  }
+
+  .littleTitle {
+    font-weight: 300;
+    top: 750px;
+    position: absolute;
+  }
+}
+
+/********* 
+****  tablet, landscape iPad, lo-res laptops ands desktops
+/*********/
+@media (min-width: 801px) {
+  /*** navigation ***/
+
+  .navigation-container {
+    display: none;
+  }
+
+  /*** title ***/
+
+  .title {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 65px;
+
+    width: min-content;
+    height: min-content;
+
+    white-space: nowrap;
+    flex-direction: column;
+
+    margin-top: 0;
+    font-weight: 1000;
+  }
+
+  /*** undertitle ***/
+
+  .undertitle {
+    bottom: 120%;
+    font-size: 30px;
     left: 5%;
     text-align: left;
 
@@ -117,6 +247,16 @@ section {
 @media (min-width: 1025px) {
   /*** navigation ***/
 
+  .navigation-container {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+  }
+
   .navigation ul li {
     margin: 30px 50px;
   }
@@ -138,7 +278,7 @@ section {
   .title {
     position: absolute;
     left: 5%;
-    top: 100%;
+    top: 40%;
     font-size: 90px;
 
     width: min-content;
@@ -154,7 +294,7 @@ section {
   /*** undertitle ***/
 
   .undertitle {
-    bottom: 100%;
+    bottom: 120%;
     font-size: 40px;
     left: 5%;
     text-align: left;
@@ -187,8 +327,27 @@ section {
 @media (min-width: 1281px) {
   /*** navigation ***/
 
+  .navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    text-align: center;
+  }
+
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .navigation ul li {
-    margin: 30px 40px;
+    margin: 30px 50px;
   }
 
   .navigation ul li a:hover {
@@ -199,8 +358,6 @@ section {
   .navigation ul li a {
     text-decoration: none;
     color: #333;
-
-    font-size: 15px;
   }
 
   /*** title ***/
@@ -208,8 +365,8 @@ section {
   .title {
     position: absolute;
     left: 5%;
-    top: 35%;
-    font-size: 120px;
+    top: 45%;
+    font-size: 90px;
 
     width: min-content;
     height: min-content;
@@ -224,11 +381,10 @@ section {
   /*** undertitle ***/
 
   .undertitle {
-    bottom: 80%;
+    bottom: 95%;
     font-size: 40px;
     left: 5%;
     text-align: left;
-    margin: 0% 0% 10% 0%;
 
     position: absolute;
     width: min-content;
@@ -237,5 +393,17 @@ section {
     align-items: center;
     white-space: nowrap;
     flex-direction: column;
+  }
+
+  .portfolio {
+    font-weight: bold;
+    top: 705px;
+    position: absolute;
+  }
+
+  .littleTitle {
+    font-weight: 300;
+    top: 750px;
+    position: absolute;
   }
 }

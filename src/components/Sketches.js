@@ -6,9 +6,9 @@ import "../styles/Sketches.css";
 const Slides = () => {
   return (
     <div className="sketchesContainer">
-      <h2 class="text-center">TAKE A LOOK AT MORE OF MY (CREATIVE) WORK!</h2>
+      {/* <h2 class="text-center">TAKE A LOOK AT MORE OF MY (CREATIVE) WORK!</h2> */}
       <Link to="/creative">
-        <button type="button" class="btn">
+        <button type="button" className="btn">
           More
         </button>
       </Link>
