@@ -30,8 +30,8 @@
       "title": "The World of Dr. Jart+",
       "subtitle": "#React #Ready Player Me #Dr. Jart+",
       "img": "/pics/icons/tiger.png",
-      "description": "Hanakotobo is the symbolism that flowers carry in Japan. Trough that symbolism you follow a samurai's life story.",
-      "url": "https:a-samurai-story.onrender.com/"
+      "description": "My bachelor's work for Multimedia and Creative Technologies, Erasmus. It is and interactive website, made in collaboration with Dr. Jart+ ",
+      "url": "https://fw-dj-01-1.onrender.com/"
     }
   ],
   "creativeWork": [
@@ -120,12 +120,30 @@
       "title": "GIP",
       "subtitle": "In the last year at Sint-Lukas every student needs to create GIP work. The subject is completely up to the students, as well the media. I choose to create a poster series reflecting back on 6 core memories of my youth. For each poster I wrote a poem describing the feeling of the memory. I thought myself Photoshop for this assignment and it was my first time working so much digitally. I printed each poster on top of a large sheet that I'd screen printed with a mix of inks.",
       "images": [
-        "/pics/works/sketchbook/sketch1.png",
-        "/pics/works/sketchbook/sketch2.png",
-        "/pics/works/sketchbook/sketch7.png",
-        "/pics/works/sketchbook/sketch1.png",
-        "/pics/works/sketchbook/sketch2.png",
-        "/pics/works/sketchbook/sketch7.png"
+        {
+          "src": "/pics/works/GIP/gip1.png",
+          "hoverDescription": "As the sun leaned on the horizon  And the music blasted out the car   She rested her head against the window   And her thoughts wandered far"
+        },
+        {
+          "src": "/pics/works/GIP/gip2.png",
+          "hoverDescription": "Upon seeing them   She was brimming with energy   These were real people   And not just a memory"
+        },
+        {
+          "src": "/pics/works/GIP/gip3.png",
+          "hoverDescription": "As she looked at the little creature   With the gentle touch   She started to wonder   How she could ever love so much"
+        },
+        {
+          "src": "/pics/works/GIP/gip4.png",
+          "hoverDescription": "With feet pounding on the ground   And some mud in her hair   The rain streaming down her face   She looked up and smelled the air"
+        },
+        {
+          "src": "/pics/works/GIP/gip5.png",
+          "hoverDescription": "While dancing the night away   With senses that went numb   She took a sip from her drink   And realised she couldn't feel her tongue"
+        },
+        {
+          "src": "/pics/works/GIP/gip6.png",
+          "hoverDescription": "While her mom set on the bench   Ans she jumped in the puddles   The news suddenly struck   And she fell down in need of cuddles"
+        }
       ]
     },
     {
@@ -143,6 +161,14 @@
         {
           "src": "/pics/works/random/nijnjte.jpg",
           "hoverDescription": "For an 3D animation I chose Miffy as the main character. Here she she is posing."
+        },
+        {
+          "src": "/pics/works/random/druk1.png",
+          "hoverDescription": "A screen print, inspired by my family on vacation in the Black Forrest Germany."
+        },
+        {
+          "src": "/pics/works/random/druk2.png",
+          "hoverDescription": "A screen print, inspired by my family on vacation in the Black Forrest Germany."
         }
       ]
     }

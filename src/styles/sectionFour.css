@@ -14,6 +14,12 @@ html {
 
 .titleContact {
   margin: 0px 0px 10px 0px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subtitleContact  {
+  font-size: 25px;
 }
 
 .svgContainer {

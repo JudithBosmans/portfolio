@@ -1,14 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import "../styles/Creative.css";
 
 import data from "../data.json";
-import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 
 const Creative = () => {
   const { creativeWork } = data;
   const navigate = useNavigate();
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const openModal = (section, imageSrc) => {
+    const imageObj = section.images.find(
+      (img) => (img.src || img) === imageSrc
+    );
+
+    const description = imageObj?.hoverDescription || section.description;
+
+    setSelectedItem({
+      title: section.title,
+      image: imageSrc,
+      description: description,
+    });
+  };
+
+  const closeModal = () => {
+    setSelectedItem(null);
+  };
 
   const scrollToSection = (sectionId) => {
     navigate("/");
@@ -82,44 +101,64 @@ const Creative = () => {
           </motion.button>
         </div>
       </motion.div>
+
       <Container>
-        <h2 className="text-center">MORE</h2>
-
-        {creativeWork && creativeWork.length > 0 ? (
-          creativeWork.map((section, index) => (
-            <div key={index} className="mb-5">
-              <div className="sketchbookContainer">
-                <h2>{section.title}</h2>
-                <p>{section.subtitle}</p>
-
-                <Row>
-                  {section.images.map((img, imgIndex) => (
-                    <Col key={imgIndex} md={3} className="mb-4">
-                      <motion.div
-                        className="image-container"
-                        whileHover={{ scale: 1.5 }} 
-                      >
-                        <img
-                          src={typeof img === "string" ? img : img.src}
-                          alt={`Sketches ${imgIndex + 1}`}
-                          className="img-fluid"
-                        />
-                        {img.hoverDescription && (
-                          <div className="hover-description">
-                            {img.hoverDescription}
-                          </div>
-                        )}
-                      </motion.div>
-                    </Col>
-                  ))}
-                </Row>
-              </div>
-            </div>
-          ))
-        ) : (
-          <p>Loading creative work...</p>
-        )}
+        {creativeWork.map((section, index) => (
+          <React.Fragment key={index}>
+            <Row className="section-title">
+              <h2 className="text-left">{section.title}</h2>
+              <p className="text-left">{section.subtitle}</p>
+            </Row>
+            <Row>
+              {section.images.map((image, imgIndex) => (
+                <Col key={`${index}-${imgIndex}`} md={4} className="mb-4">
+                  <div
+                    className="image-container"
+                    onClick={() =>
+                      openModal(
+                        section,
+                        typeof image === "string" ? image : image.src
+                      )
+                    }
+                  >
+                    <img
+                      src={typeof image === "string" ? image : image.src}
+                      alt={`Creative work ${index + 1}, Image ${imgIndex + 1}`}
+                      className="img-fluid"
+                    />
+                  </div>
+                </Col>
+              ))}
+            </Row>
+          </React.Fragment>
+        ))}
       </Container>
+
+      {selectedItem && (
+        <Modal
+          className="custom-modal"
+          show={true}
+          onHide={closeModal}
+          centered
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>{selectedItem.title}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <img
+              src={selectedItem.image}
+              alt={selectedItem.title}
+              className="img-fluid"
+            />
+            <p>{selectedItem.description}</p>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={closeModal}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      )}
     </div>
   );
 };

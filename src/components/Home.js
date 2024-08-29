@@ -8,7 +8,7 @@ import Project from "../components/Project";
 import Slides from "../components/Sketches";
 import Contact from "../components/Contact";
 
-import TitleImage from "../text/Title.png";
+import nameImage from "../text/name.png";
 
 import { motion } from "framer-motion";
 
@@ -79,22 +79,20 @@ function Home() {
           initial="hidden"
           animate="visible"
         >
-          {/* <motion.img
-            src={TitleImage}
-            alt="Sample"
-            variants={item}
-            className="title-image"
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            transition={{ duration: 1 }}
-          /> */}
           <motion.h1 className="title1" variants={item}>
             HELLO,
           </motion.h1>
           <motion.h1 className="title2" variants={item}>
-            I'M JUDITH
+            I'M
           </motion.h1>
+          <motion.img
+            src={nameImage}
+            alt="Sample"
+            variants={container}
+            className="title-image"
+            initial="hidden"
+            animate="visible"
+          />
         </motion.div>
         <motion.div
           className="undertitle"

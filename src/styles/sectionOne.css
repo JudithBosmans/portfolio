@@ -7,8 +7,18 @@ html {
 **** HOME 
 /*********/
 
-section {
+#home-section,
+#experiences,
+#projects {
   min-height: 100vh;
+}
+
+#slides {
+  height: 60vh;
+}
+
+#contact {
+  height: 80vh;
 }
 
 /********* 
@@ -211,6 +221,9 @@ section {
     font-weight: 1000;
   }
 
+  .title-image {
+  }
+
   /*** undertitle ***/
 
   .undertitle {
@@ -289,6 +302,16 @@ section {
 
     margin-top: 0;
     font-weight: 1000;
+  }
+
+  .title-image {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
+
+  .title-image img {
+    width: 400px;
   }
 
   /*** undertitle ***/

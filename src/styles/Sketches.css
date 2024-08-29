@@ -8,12 +8,26 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 60vh;
-  padding: 20px;
+  height: 100%;
+
+  background: radial-gradient(
+    circle at center,
+    #f39b9a,
+    rgba(145, 152, 229, 0) 35%
+  );
 }
 
-.sketchesContainer h2 {
-  font-size: 2rem;
-  color: #333;
+.more-title {
+  color: #e8e6d4;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #f39b9a;
+  border-radius: 10px;
+  color: #e8e6d4;
+  font-weight: 400;
+  margin-top: 20px;
+  text-decoration: none;
 }

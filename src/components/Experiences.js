@@ -87,9 +87,9 @@ const Experiences = () => {
             <p>Three.js</p>
             <p>Maya & Unity</p>
             <p>Graphic design</p>
-            <p>Teamplayer</p>
+            <p>21st Century Skills</p>
             <p>Growth Mindset</p>
-            <p>Creative thinking</p>
+            <p>Design thinking</p>
           </div>
         </div>
       </div>
