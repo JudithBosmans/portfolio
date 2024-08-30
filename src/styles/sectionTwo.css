@@ -30,7 +30,8 @@ html {
   .experiencesContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 50px;
 
@@ -147,8 +148,9 @@ html {
 
     margin: 0 auto;
     max-width: 100%;
-    width: 80%;
+    width: 85%;
     height: 80vh;
+    right: 10%;
   }
 
   /****
@@ -193,7 +195,7 @@ html {
   .titleEducation {
     position: absolute;
     color: #1e2124;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
   }
 
@@ -216,7 +218,7 @@ html {
   .skillsText {
     position: absolute;
     color: #1e2124;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .textExperience1,
@@ -239,6 +241,6 @@ html {
   }
 
   .skill2 {
-    margin-left: 70px;
+    margin-left: 20px;
   }
 }

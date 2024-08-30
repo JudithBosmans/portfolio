@@ -208,8 +208,8 @@ html {
   .title {
     position: absolute;
     left: 5%;
-    top: 50%;
-    font-size: 65px;
+    top: 45%;
+    font-size: 55px;
 
     width: min-content;
     height: min-content;
@@ -250,6 +250,7 @@ html {
   .littleTitle {
     font-weight: 300;
     top: 750px;
+    font-size: 30px;
     position: absolute;
   }
 }
@@ -291,8 +292,8 @@ html {
   .title {
     position: absolute;
     left: 5%;
-    top: 40%;
-    font-size: 90px;
+    top: 38%;
+    font-size: 80px;
 
     width: min-content;
     height: min-content;
@@ -317,7 +318,7 @@ html {
   /*** undertitle ***/
 
   .undertitle {
-    bottom: 120%;
+    bottom: 127%;
     font-size: 40px;
     left: 5%;
     text-align: left;
@@ -333,14 +334,13 @@ html {
 
   .portfolio {
     font-weight: bold;
-    top: 705px;
     position: absolute;
   }
 
   .littleTitle {
     font-weight: 300;
-    top: 750px;
     position: absolute;
+    margin-top: 5px;
   }
 }
 

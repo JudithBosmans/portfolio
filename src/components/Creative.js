@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "../styles/Creative.css";
 
@@ -10,6 +10,10 @@ const Creative = () => {
   const { creativeWork } = data;
   const navigate = useNavigate();
   const [selectedItem, setSelectedItem] = useState(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const openModal = (section, imageSrc) => {
     const imageObj = section.images.find(
@@ -30,12 +34,14 @@ const Creative = () => {
   };
 
   const scrollToSection = (sectionId) => {
-    navigate("/");
-    setTimeout(() => {
-      document
-        .getElementById(sectionId)
-        ?.scrollIntoView({ behavior: "smooth" });
-    }, 100);
+    if (sectionId) {
+      navigate("/");
+      setTimeout(() => {
+        document
+          .getElementById(sectionId)
+          ?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
   };
 
   const container = {
