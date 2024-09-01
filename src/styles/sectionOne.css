@@ -189,7 +189,7 @@ html {
 }
 
 /* 16inch*/
-@media (min-width: 3072px) {
+/* @media (min-width: 3072px) {
   .title {
     top: 38%;
     font-size: 110px;
@@ -204,4 +204,4 @@ html {
     font-size: 36px;
     top: 763px;
   }
-}
+} */
