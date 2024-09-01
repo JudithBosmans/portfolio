@@ -189,14 +189,14 @@ html {
 }
 
 /* 16inch*/
-/* @media (min-width: 3072px) {
+@media (min-width: 3072px) {
   .title {
     top: 38%;
     font-size: 110px;
   }
 
   .undertitle {
-    bottom: 90%;
+    bottom: 80%;
     font-size: 45px;
   }
 
@@ -204,4 +204,4 @@ html {
     font-size: 36px;
     top: 763px;
   }
-} */
+}
