@@ -42,3 +42,7 @@ h1 {
 p {
   font-family: #1e2124;
 }
+
+.navigation-container {
+  position: fixed;
+}
