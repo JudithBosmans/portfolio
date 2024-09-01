@@ -65,25 +65,57 @@ html {
 **** Media Queries 
 *********/
 
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width: 320px) {
+  /*** navigation ***/
+
+  .navigation-container {
+    display: none;
+  }
+  /*** title ***/
+
   .title {
+    position: absolute;
+    left: 5%;
     top: 50%;
     font-size: 65px;
+
+    width: min-content;
+    height: min-content;
+
+    white-space: nowrap;
+    flex-direction: column;
+
+    margin-top: 0;
+    font-weight: 1000;
   }
+
+  /*** undertitle ***/
 
   .undertitle {
     bottom: 120%;
     font-size: 30px;
+    left: 5%;
+    text-align: left;
+
+    position: absolute;
+    width: min-content;
+    height: min-content;
+
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
   }
 
   .portfolio {
+    font-weight: bold;
     top: 705px;
+    position: absolute;
   }
 
   .littleTitle {
-    top: 750px;
     font-weight: 300;
+    top: 750px;
+    position: absolute;
   }
 }
 
@@ -171,7 +203,7 @@ html {
 }
 
 /* big landscape tablets, laptops, and desktops */
-/* @media (min-width: 1920px) {
+@media (min-width: 1920px) {
   .title {
     top: 38%;
     font-size: 110px;
@@ -185,95 +217,6 @@ html {
   .littleTitle {
     font-size: 36px;
     top: 763px;
-  }
-} */
-
-/********* 
-****  common pc
-/*********/
-@media (min-width: 1920px) {
-  /*** navigation ***/
-
-  .navigation-container {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    text-align: center;
-  }
-
-  .navigation ul li {
-    margin: 30px 50px;
-  }
-
-  .navigation ul li a:hover {
-    color: #f39b9a;
-    font-weight: 600;
-  }
-
-  .navigation ul li a {
-    text-decoration: none;
-    color: #333;
-
-    font-size: 15px;
-  }
-
-  /*** title ***/
-
-  .title {
-    position: absolute;
-    left: 5%;
-    top: 38%;
-    font-size: 80px;
-
-    width: min-content;
-    height: min-content;
-
-    white-space: nowrap;
-    flex-direction: column;
-
-    margin-top: 0;
-    font-weight: 1000;
-  }
-
-  .title-image {
-    position: absolute;
-    left: 40%;
-    top: 50%;
-  }
-
-  .title-image img {
-    width: 400px;
-  }
-
-  /*** undertitle ***/
-
-  .undertitle {
-    bottom: 127%;
-    font-size: 40px;
-    left: 5%;
-    text-align: left;
-
-    position: absolute;
-    width: min-content;
-    height: min-content;
-
-    align-items: center;
-    white-space: nowrap;
-    flex-direction: column;
-  }
-
-  .portfolio {
-    font-weight: bold;
-    position: absolute;
-  }
-
-  .littleTitle {
-    font-weight: 300;
-    position: absolute;
-    margin-top: 5px;
   }
 }
 
@@ -292,181 +235,5 @@ html {
   .littleTitle {
     font-size: 36px;
     top: 763px;
-  }
-}
-
-/********* 
-****  big landscape tablets, laptops, and desktops
-/*********/
-@media (min-width: 1025px) {
-  /*** navigation ***/
-
-  .navigation-container {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    text-align: center;
-  }
-
-  .navigation ul li {
-    margin: 30px 50px;
-  }
-
-  .navigation ul li a:hover {
-    color: #f39b9a;
-    font-weight: 600;
-  }
-
-  .navigation ul li a {
-    text-decoration: none;
-    color: #333;
-
-    font-size: 15px;
-  }
-
-  /*** title ***/
-
-  .title {
-    position: absolute;
-    left: 5%;
-    top: 38%;
-    font-size: 80px;
-
-    width: min-content;
-    height: min-content;
-
-    white-space: nowrap;
-    flex-direction: column;
-
-    margin-top: 0;
-    font-weight: 1000;
-  }
-
-  .title-image {
-    position: absolute;
-    left: 40%;
-    top: 50%;
-  }
-
-  .title-image img {
-    width: 400px;
-  }
-
-  /*** undertitle ***/
-
-  .undertitle {
-    bottom: 127%;
-    font-size: 40px;
-    left: 5%;
-    text-align: left;
-
-    position: absolute;
-    width: min-content;
-    height: min-content;
-
-    align-items: center;
-    white-space: nowrap;
-    flex-direction: column;
-  }
-
-  .portfolio {
-    font-weight: bold;
-    position: absolute;
-  }
-
-  .littleTitle {
-    font-weight: 300;
-    position: absolute;
-    margin-top: 5px;
-  }
-}
-
-/********* 
-****  BIG
-/*********/
-@media (min-width: 1281px) {
-  /*** navigation ***/
-
-  .navigation-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-
-    text-align: center;
-  }
-
-  .navigation ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navigation ul li {
-    margin: 30px 50px;
-  }
-
-  .navigation ul li a:hover {
-    color: #f39b9a;
-    font-weight: 600;
-  }
-
-  .navigation ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-
-  /*** title ***/
-
-  .title {
-    position: absolute;
-    left: 5%;
-    top: 45%;
-    font-size: 90px;
-
-    width: min-content;
-    height: min-content;
-
-    white-space: nowrap;
-    flex-direction: column;
-
-    margin-top: 0;
-    font-weight: 1000;
-  }
-
-  /*** undertitle ***/
-
-  .undertitle {
-    bottom: 95%;
-    font-size: 40px;
-    left: 5%;
-    text-align: left;
-
-    position: absolute;
-    width: min-content;
-    height: min-content;
-
-    align-items: center;
-    white-space: nowrap;
-    flex-direction: column;
-  }
-
-  .portfolio {
-    font-weight: bold;
-    top: 705px;
-    position: absolute;
-  }
-
-  .littleTitle {
-    font-weight: 300;
-    top: 750px;
-    position: absolute;
   }
 }
